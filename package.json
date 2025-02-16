@@ -1,0 +1,25 @@
+{
+  "name": "azure-blob",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx tsc && node ./dist/bin/server.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.6.0",
+    "@azure/storage-blob": "^12.26.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "typescript": "^5.7.3"
+  }
+}
